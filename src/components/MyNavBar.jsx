@@ -4,7 +4,7 @@ const MyNavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
+        <div className="container-fluid px-0">
           <a className="navbar-brand" href="#">
             <img className="logo" src={logo} alt="logo" />
           </a>
@@ -106,7 +106,7 @@ const MyNavBar = () => {
                 </li>
                 <li className="nav-item dropdown">
                   <a
-                    className="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle pe-0"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"

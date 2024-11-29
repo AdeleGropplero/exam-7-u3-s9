@@ -4,16 +4,21 @@ import MyNavBar from "./components/MyNavBar";
 import MyFooter from "./components/MyFooter";
 import MyTvShowsSection from "./components/MyTvShowsSection";
 import MyRowForMovies from "./components/MyRowForMovies";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
     <>
-      <MyNavBar />
-      <MyTvShowsSection />
+      <Container>
+        <MyNavBar />
+        <MyTvShowsSection />
 
-      <MyRowForMovies title="Harry Potter" />
+        <MyRowForMovies title="Harry Potter" />
+        <MyRowForMovies title="Twilight" />
+        <MyRowForMovies title="The lord of the rings" />
 
-      <MyFooter />
+        <MyFooter />
+      </Container>
     </>
   );
 }

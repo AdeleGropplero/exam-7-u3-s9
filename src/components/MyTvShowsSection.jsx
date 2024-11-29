@@ -2,7 +2,7 @@ const MyTvShowsSection = () => {
   return (
     <>
       <div className="my-3 bg-dark d-flex justify-content-between">
-        <div className="mx-4 d-flex align-items-center flex-column flex-sm-row ms-5 ms-sm-3">
+        <div className=" d-flex align-items-center flex-column flex-sm-row ms-5 ms-sm-0">
           <h1 className="me-sm-4">TV Shows</h1>
           <div className="btn-group">
             <button
@@ -42,7 +42,7 @@ const MyTvShowsSection = () => {
             </ul>
           </div>
         </div>
-        <div className="d-flex me-4 align-items-center d-none d-sm-flex">
+        <div className="d-flex align-items-center d-none d-sm-flex">
           <div className="px-3 pb-1 border border-light">
             <svg
               xmlns="http://www.w3.org/2000/svg"
