@@ -3,7 +3,7 @@ import { Col } from "react-bootstrap";
 
 class SingleMovie extends Component {
   render() {
-    const { poster } = this.props;
+    const { poster, title, year, id } = this.props;
 
     return (
       <Col className="my-2">
@@ -24,9 +24,9 @@ class SingleMovie extends Component {
           />
 
           <div className="infoFilm">
-            <h4>{this.props.title}</h4>
-            <p>{`Anno: ${this.props.year}`}</p>
-            <p>{`Id: ${this.props.id}`}</p>
+            <h4>{title}</h4>
+            <p>{`Anno: ${year}`}</p>
+            <p>{`Id: ${id}`}</p>
           </div>
         </div>
       </Col>
