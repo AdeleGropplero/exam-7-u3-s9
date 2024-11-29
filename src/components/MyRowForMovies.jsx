@@ -48,6 +48,7 @@ class MyRowForMovies extends Component {
                     poster={movie.Poster}
                     title={movie.Title}
                     id={movie.imdbID}
+                    year={movie.Year}
                   />
                 ))}
           </Row>

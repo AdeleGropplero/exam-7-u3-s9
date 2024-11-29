@@ -8,7 +8,7 @@ class SingleMovie extends Component {
     return (
       <Col className="my-2">
         <div
-          className="movie-card"
+          className="movieCard"
           style={{ position: "relative", width: "100%" }}
         >
           <img
@@ -22,6 +22,12 @@ class SingleMovie extends Component {
               objectFit: "cover"
             }}
           />
+
+          <div className="infoFilm">
+            <h4>{this.props.title}</h4>
+            <p>{`Anno: ${this.props.year}`}</p>
+            <p>{`Id: ${this.props.id}`}</p>
+          </div>
         </div>
       </Col>
     );
