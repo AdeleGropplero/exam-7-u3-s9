@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding-inline: 20px;
+  padding-top: 10px;
+}
+
+/* Nav bar */
+.logo {
+  max-width: 7rem;
+  margin-left: -5px;
+}
+
+.avatar {
+  height: 2rem;
+}
+
+/* Tv Shows */
+.bottoneTV {
+  border-radius: 1px;
+  border: 1px solid white;
+}
+.footer {
+  margin-top: 7rem;
+  max-width: 900px;
+}
+
+.footerBtn {
+  width: 150px;
+  border-radius: 1px;
+  padding-inline: 0;
+}
+
+.avatar2 {
+  display: block;
+  position: relative;
+  height: 100%;
+  border-radius: 3px;
+
+  img:first-child {
+    height: 10rem;
+  }
+}
+
+.changeAvatar {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  background-color: black;
+}
+
+.maturityRatings {
+  background-color: #5a5a5a;
+  width: 13rem;
+}
+
+.bottoniProfile {
+  border-radius: 1px;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.checkbox {
+  transform: scale(1.5);
+  margin: 5px;
+
+  /*   &:active {
+    background-color: inherit;
+  }*/
+}
