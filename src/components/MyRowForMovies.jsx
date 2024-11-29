@@ -36,7 +36,8 @@ class MyRowForMovies extends Component {
     return (
       <>
         <div className="mt-5">
-          <h2>{this.props.title}</h2>{" "}
+          <h2>{this.props.title}</h2>
+
           <Row className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-6 gx-3 gy-3 mt-2">
             {this.state.movies &&
               this.state.movies
