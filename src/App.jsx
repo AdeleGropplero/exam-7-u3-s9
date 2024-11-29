@@ -13,7 +13,7 @@ function App() {
       <Container>
         <MyNavBar />
 
-        {/* <AreaPersonale /> SCOMMENTARE QUESTA PARTE E L?IMPORT PER VEDERE LA SEZIONE AREA PERSONALE*/}
+        {/* <AreaPersonale /> SCOMMENTARE QUESTA PARTE E L'IMPORT PER VEDERE LA SEZIONE AREA PERSONALE*/}
 
         <MyTvShowsSection />
         <MyRowForMovies title="Harry Potter" />
